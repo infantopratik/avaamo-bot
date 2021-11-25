@@ -1,20 +1,16 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>ACME rental agency</title>
-  <meta name="description" content="ACME rental agency">
-  <meta name="author" content="Pratik Infanto">
-
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-  <h1>ACME car rental agency</h1>
-  <p>Use our agent in the bottom right corner to create and manage your bookings.</p>
-  <script type="text/javascript" async src="https://c6.avaamo.com/web_channels/367b5b20-5c75-4c6e-9cd8-819d7509f642.js?theme=avm-messenger"></script>
+    <script type="text/javascript"> 
+        let utcDate  = new Date(Date.parse('2020-05-10T00:00:00.000Z'));
+        let convDate = utcDate.toLocaleString();
+        var AvaamoChatBot=function(t){function o(t,o){var n=document.createElement("script");n.setAttribute("src",t),n.setAttribute("id","avm-web-channel"),n.onload=o,document.body.appendChild(n)}return this.options=t||{},this.load=function(t){o(this.options.url,function(){window.Avaamo.addFrame(),t&&"function"==typeof(t)&&t(window.Avaamo)})},this}; var chatBox = new AvaamoChatBot({url: `https://c6.avaamo.com/web_channels/8588628f-d9f4-4b2d-aae9-2628c8a6190e?custom_properties[browser_time]=${convDate}`}); chatBox.load(); 
+    </script>
 </body>
 </html>
